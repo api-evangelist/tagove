@@ -1,0 +1,56 @@
+generated: '2026-07-21'
+method: searched
+source: https://developer.acquire.io/llms.txt
+note: >-
+  Tagove now operates as Acquire.io. First-party client libraries are documented
+  in the Acquire developer docs. Mobile SDKs are distributed via CocoaPods
+  (iOS) and native Android; the widget/backend loaders are hosted JS.
+packages:
+- language: swift
+  platform: ios
+  registry: cocoapods
+  name: AcquireIOSupport
+  variants:
+  - AcquireIOSupport Core
+  - AcquireIOSupport Lite
+  install: 'pod ''AcquireIOSupport'''
+  url: https://developer.acquire.io/sdk/ios/sdk-setup-guide
+  official: true
+  status: documented
+- language: kotlin
+  platform: android
+  registry: native
+  name: Acquire Android SDK
+  url: https://developer.acquire.io/sdk/android/android-setup-guide
+  official: true
+  status: documented
+- language: javascript
+  platform: react-native
+  registry: native
+  name: Acquire React Native SDK
+  url: https://developer.acquire.io/sdk/ios/react-native
+  official: true
+  status: under-development
+- language: javascript
+  platform: web
+  registry: hosted
+  name: Acquire JS Live Chat / Widget API
+  loader: https://s.acquire.io/bare-widget.js
+  url: https://developer.acquire.io/master/js-api/js-live-chat-api
+  official: true
+  status: documented
+- language: javascript
+  platform: web
+  registry: hosted
+  name: Acquire Backend JS SDK
+  loader: https://s.acquire.io/bare-backend.js
+  url: https://developer.acquire.io/master/js-api/backend-js-sdk/setup-backend-js-sdk
+  official: true
+  status: documented
+candidates:
+- language: javascript
+  registry: npm
+  name: acquireio
+  url: https://www.npmjs.com/package/acquireio
+  official: unverified
+  note: An 'acquireio' npm package exists (HTTP 200) but first-party ownership was not verified in this pass.

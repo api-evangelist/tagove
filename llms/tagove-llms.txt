@@ -1,0 +1,345 @@
+# generated: '2026-07-21' | method: searched | source: https://developer.acquire.io/llms.txt
+# ACQUIRE
+
+## 2.0.0
+
+- [Getting Started](https://developer.acquire.io/master.md)
+- [Overview](https://developer.acquire.io/widget/overview.md)
+- [Installation](https://developer.acquire.io/widget/installation.md)
+- [Customization](https://developer.acquire.io/widget/functioning-customization.md)
+- [Settings](https://developer.acquire.io/widget/functioning-customization/settings.md)
+- [Greeting](https://developer.acquire.io/widget/functioning-customization/settings/greeting.md): To update the greeting text from the widget side
+- [Greeting Introduction](https://developer.acquire.io/widget/functioning-customization/settings/introduction-string.md): To update the greeting Introduction from the widget side
+- [Conversation button](https://developer.acquire.io/widget/functioning-customization/settings/conversation-button.md): To update the conversation button text from the widget side
+- [Conversation list title](https://developer.acquire.io/widget/functioning-customization/settings/conversation-list-title.md): To update the conversation list title from the widget side
+- [Launcher Text](https://developer.acquire.io/widget/functioning-customization/settings/message-placeholder.md): To update the launcher button text from the widget side
+- [Widget Appearance](https://developer.acquire.io/widget/functioning-customization/settings/widget-appearance.md): You can customize the widget appearance according to your requirements.
+- [Methods](https://developer.acquire.io/widget/functioning-customization/methods.md)
+- [Widget visibility](https://developer.acquire.io/widget/functioning-customization/methods/widget-visibility.md): Change the visibility of the widget
+- [Widget window state](https://developer.acquire.io/widget/functioning-customization/methods/widget-window-state.md): Change the window state save setting
+- [Set Customer Info](https://developer.acquire.io/widget/functioning-customization/methods/set-customer-info.md): Visitor attributes are information about a visitor, such as their name, phone number, and email address. In Acquire, we use this information in a variety of places, including in their profiles.
+- [Get Customer info](https://developer.acquire.io/widget/functioning-customization/methods/get-customer-info.md): To get the customer information
+- [Events/Callbacks](https://developer.acquire.io/widget/functioning-customization/events-callbacks.md)
+- [reloadUI](https://developer.acquire.io/widget/functioning-customization/events-callbacks/reloadui.md): Reloading the UI from the acquire object
+- [onChatMaximize](https://developer.acquire.io/widget/functioning-customization/events-callbacks/onchatmaximize.md): Method to set the widget to max
+- [onChatMinimize](https://developer.acquire.io/widget/functioning-customization/events-callbacks/onchatminimize.md): Method to set the widget to max
+- [onChatInitiated/Started](https://developer.acquire.io/widget/functioning-customization/events-callbacks/onchatinitiated-started.md): Initiate the chat from the acquire object by maximize the widget state with parameter as Chat.
+- [onChatClosed](https://developer.acquire.io/widget/functioning-customization/events-callbacks/onchatclosed.md): Fire the event with the parameters getting from the close event with the acquire object
+- [onAgentAssign](https://developer.acquire.io/widget/functioning-customization/events-callbacks/onagentassign.md): Update event on acquire object will be triggered after the agent accept the chat.
+- [onAgentStateChange (Available/Unavailable)](https://developer.acquire.io/widget/functioning-customization/events-callbacks/onagentstatechange-available-unavailable.md): The state event triggers when the agent changes it's state to either available/unavailable
+- [Link resources](https://developer.acquire.io/widget/functioning-customization/link-support.md)
+- [Share channel link](https://developer.acquire.io/widget/functioning-customization/link-support/channel-links.md)
+- [\[Under Development\] Overview](https://developer.acquire.io/sdk/overview.md)
+- [\[Under Development\] iOS](https://developer.acquire.io/sdk/ios.md): SDK guide for iOS.
+- [\[Under Development\] iOS Setup Guide](https://developer.acquire.io/sdk/ios/sdk-setup-guide.md)
+- [\[Under Development\] Getting Started](https://developer.acquire.io/sdk/ios/sdk-setup-guide/getting-started.md)
+- [\[Under Development\] Integration Guide (Core)](https://developer.acquire.io/sdk/ios/sdk-setup-guide/integration-guide-core.md): This guide describes the process of implementing AcquireIOSupport Core SDK into your iOS app We recommend using CocoaPods as the most advanced way of managing iOS project dependencies.
+- [\[Under Development\] Integration Guide (Lite)](https://developer.acquire.io/sdk/ios/sdk-setup-guide/integration-guide-lite.md): This guide describes the process of implementing AcquireIOSupport Lite SDK into your iOS app. We recommend using CocoaPods as the most advanced way of managing iOS project dependencies.
+- [\[Under Development\] Initialization](https://developer.acquire.io/sdk/ios/initialization.md)
+- [\[Under Development\] Theme Setting](https://developer.acquire.io/sdk/ios/theme-setting.md)
+- [\[Under Development\] Acquire Delegates for iOS](https://developer.acquire.io/sdk/ios/acquire-ios-delegates.md)
+- [\[Under Development\] Widget customization](https://developer.acquire.io/sdk/ios/widget-customization.md)
+- [\[Under Development\] React Native](https://developer.acquire.io/sdk/ios/react-native.md)
+- [\[Under Development\] Android](https://developer.acquire.io/sdk/android.md)
+- [\[Under Development\] Android Setup Guide](https://developer.acquire.io/sdk/android/android-setup-guide.md)
+- [\[Under Development\] Getting Started](https://developer.acquire.io/sdk/android/android-setup-guide/getting-started.md)
+- [\[Under Development\] Integration Guide (Core)](https://developer.acquire.io/sdk/android/android-setup-guide/integration-guide.md)
+- [\[Under Development\] Integration Guide (Lite)](https://developer.acquire.io/sdk/android/android-setup-guide/integration-guide-lite.md)
+- [\[Under Development\] Acquire SDK APIs](https://developer.acquire.io/sdk/android/acquire-sdk-apis.md)
+- [\[Under Development\] Acquire Delegates for Android](https://developer.acquire.io/sdk/android/acquire-android-delegates.md)
+- [\[Under Development\] React Native](https://developer.acquire.io/sdk/android/react-native.md)
+- [Introduction](https://developer.acquire.io/webhook-api/introduction.md)
+- [Getting Started](https://developer.acquire.io/webhook-api/webhook-subscribe.md)
+- [Securing Webhook](https://developer.acquire.io/webhook-api/securing-webhook.md)
+- [Webhook Events](https://developer.acquire.io/webhook-api/webhook-events-1.md)
+- [Introduction](https://developer.acquire.io/rest-apis/introduction.md)
+- [Request Types, Permissions, Errors, & Limits](https://developer.acquire.io/rest-apis/introduction/interrelated.md)
+- [Authorization](https://developer.acquire.io/rest-apis/authorization.md)
+- [Conversation](https://developer.acquire.io/rest-apis/conversation.md): A collection of threads is a group of messages. A conversation is a record of messages with a contact and agent(s).
+- [Cases](https://developer.acquire.io/rest-apis/conversation/conversation-or-cases.md): Any interaction with a contact creates a case in Acquire.
+- [Messages](https://developer.acquire.io/rest-apis/conversation/conversation-or-cases/messages-1.md): Message threads are conversations between agents and contacts.
+- [Retrieve a list of messages](https://developer.acquire.io/rest-apis/conversation/conversation-or-cases/messages-1/list-messages.md): Retrieve a list of messages.
+- [Retrieve a message](https://developer.acquire.io/rest-apis/conversation/conversation-or-cases/messages-1/get.md): Get a single message based on its ID
+- [Send a message](https://developer.acquire.io/rest-apis/conversation/conversation-or-cases/messages-1/add.md): Add a new message via a channel
+- [Update message](https://developer.acquire.io/rest-apis/conversation/conversation-or-cases/messages-1/update.md): Update a message
+- [Delete Message](https://developer.acquire.io/rest-apis/conversation/conversation-or-cases/messages-1/delete-message.md): Delete a message.
+- [Case List](https://developer.acquire.io/rest-apis/conversation/conversation-or-cases/list.md): Retrieve a list of cases
+- [Single Case](https://developer.acquire.io/rest-apis/conversation/conversation-or-cases/get.md): Retrieve a single case.
+- [Create](https://developer.acquire.io/rest-apis/conversation/conversation-or-cases/create.md): Create a new case
+- [Close Case](https://developer.acquire.io/rest-apis/conversation/conversation-or-cases/close-case.md): Close a case
+- [Reopen Case](https://developer.acquire.io/rest-apis/conversation/conversation-or-cases/reopen-case.md): Reopen a close case.
+- [Invite Agent](https://developer.acquire.io/rest-apis/conversation/conversation-or-cases/invite-agent.md): Invite an agent or department to a case.
+- [Snooze](https://developer.acquire.io/rest-apis/conversation/snooze.md): Snooze allows the agent to remove the conversation from active view for a set time.
+- [\[Under Construction\] Delete Snooze](https://developer.acquire.io/rest-apis/conversation/snooze/delete-snooze.md): Delete a specific Snooze
+- [Create Snooze](https://developer.acquire.io/rest-apis/conversation/snooze/create-snooze.md): Create a snooze. A snooze can be created both at the contact level and case level.
+- [Notes](https://developer.acquire.io/rest-apis/conversation/conversation-or-notes.md): Notes are texts that are linked to case and contact objects.
+- [List all notes](https://developer.acquire.io/rest-apis/conversation/conversation-or-notes/list.md): Retrieve all notes.
+- [Retrieve a note](https://developer.acquire.io/rest-apis/conversation/conversation-or-notes/retrieve-a-note.md): Retrieve a single note.
+- [Create](https://developer.acquire.io/rest-apis/conversation/conversation-or-notes/create.md): Create a note.
+- [Add note message](https://developer.acquire.io/rest-apis/conversation/conversation-or-notes/note-message.md): Add a message to a note.
+- [Delete note](https://developer.acquire.io/rest-apis/conversation/conversation-or-notes/delete-note.md): Delete a note
+- [Retrieve note messages](https://developer.acquire.io/rest-apis/conversation/conversation-or-notes/retrieve-note-messages.md): Retrieve a list of note messages
+- [Contact](https://developer.acquire.io/rest-apis/customer.md): A contact is someone who has initiated a conversation through any channel. Contacts can also belong to a company.
+- [List all contacts](https://developer.acquire.io/rest-apis/customer/untitled.md): Lists all the contacts for an account
+- [Retrieve a contact](https://developer.acquire.io/rest-apis/customer/get.md): Retrieve a single contact.
+- [Add contact](https://developer.acquire.io/rest-apis/customer/create.md): Add a contact.
+- [Block Contact](https://developer.acquire.io/rest-apis/customer/block-customer.md): Block an existing contact from the contact list and widget.
+- [Merge contact](https://developer.acquire.io/rest-apis/customer/merge.md)
+- [Update contact](https://developer.acquire.io/rest-apis/customer/update.md): Update a contact.
+- [Delete contact](https://developer.acquire.io/rest-apis/customer/delete.md): Delete a contact.
+- [Company](https://developer.acquire.io/rest-apis/company.md): A company is an organization that a contact belongs to. Contacts from the same organization should be grouped in a company.
+- [List all companies](https://developer.acquire.io/rest-apis/company/list.md): Lists all companies in the account.
+- [Retrieve a company](https://developer.acquire.io/rest-apis/company/get.md): Gets the specified company.
+- [Add company](https://developer.acquire.io/rest-apis/company/create.md): Add a company.
+- [Update company](https://developer.acquire.io/rest-apis/company/update.md): Update company information.
+- [Delete company](https://developer.acquire.io/rest-apis/company/delete.md): Delete a company.
+- [Phone](https://developer.acquire.io/rest-apis/telecommunication-outsider.md): Import voice from phone systems into Acquire as conversations.
+- [Call in queue](https://developer.acquire.io/rest-apis/telecommunication-outsider/call-in-queue.md): Capture data while calls are in the queue.
+- [Ringing](https://developer.acquire.io/rest-apis/telecommunication-outsider/ringing.md): Capture data while a call is ringing.
+- [Answered](https://developer.acquire.io/rest-apis/telecommunication-outsider/answered.md): Capture data while a call is answered.
+- [Call end](https://developer.acquire.io/rest-apis/telecommunication-outsider/call-end.md): Capture data when a call ends.
+- [Chatbot](https://developer.acquire.io/rest-apis/chatbot.md): Chatbots provide an automated way of interacting with visitors. There are two types: Conversational and Sequential.
+- [Conversational Bot](https://developer.acquire.io/rest-apis/chatbot/conversational-bot.md): The Conversational Bot uses AI to respond to visitors.
+- [Groups](https://developer.acquire.io/rest-apis/chatbot/conversational-bot/groups.md): Questions and answers for Conversational bots are organized into Groups.
+- [Get Default Group](https://developer.acquire.io/rest-apis/chatbot/conversational-bot/groups/get-default-group.md): API to get the default bot group
+- [List](https://developer.acquire.io/rest-apis/chatbot/conversational-bot/groups/list.md): API to list all the available groups
+- [Add](https://developer.acquire.io/rest-apis/chatbot/conversational-bot/groups/add.md): API to add a new bot group
+- [Delete](https://developer.acquire.io/rest-apis/chatbot/conversational-bot/groups/delete.md): Delete a Conversational Bot group
+- [Copy](https://developer.acquire.io/rest-apis/chatbot/conversational-bot/groups/copy.md): Copy a group
+- [Question And Answer](https://developer.acquire.io/rest-apis/chatbot/conversational-bot/question-and-answer.md): Conversational Bots collect visitor questions and answer (QnA) them using agent or AI-created answers.
+- [List](https://developer.acquire.io/rest-apis/chatbot/conversational-bot/question-and-answer/list.md): List the questions and answers in a group.
+- [Get](https://developer.acquire.io/rest-apis/chatbot/conversational-bot/question-and-answer/get.md): Retrieve a single QnA
+- [Add](https://developer.acquire.io/rest-apis/chatbot/conversational-bot/question-and-answer/add.md): Add a new QnA
+- [Update](https://developer.acquire.io/rest-apis/chatbot/conversational-bot/question-and-answer/update.md): Update a QnA
+- [Delete](https://developer.acquire.io/rest-apis/chatbot/conversational-bot/question-and-answer/delete.md): Delete a QnA
+- [Publish](https://developer.acquire.io/rest-apis/chatbot/conversational-bot/question-and-answer/publish.md): Change the status of a QnA
+- [Bulk Action](https://developer.acquire.io/rest-apis/chatbot/conversational-bot/question-and-answer/bulk-action.md): Take bulk action on QnAs
+- [Push QnA To Suggestions](https://developer.acquire.io/rest-apis/chatbot/conversational-bot/question-and-answer/push-qna-to-suggestions.md): Create a question and set its status to draft.
+- [Import QnA](https://developer.acquire.io/rest-apis/chatbot/conversational-bot/question-and-answer/import-qna.md): Import QnA
+- [Sequence Bot](https://developer.acquire.io/rest-apis/chatbot/sequence-bot.md): Sequence Bots allow administrators to create structured conversations for contacts.
+- [Sequence List](https://developer.acquire.io/rest-apis/chatbot/sequence-bot/list.md): List the bot sequences available
+- [Get Single Sequence](https://developer.acquire.io/rest-apis/chatbot/sequence-bot/get-single-sequence.md): Retrieve details for a specific sequence
+- [Add](https://developer.acquire.io/rest-apis/chatbot/sequence-bot/add.md): Add a new sequence
+- [Update](https://developer.acquire.io/rest-apis/chatbot/sequence-bot/update.md): Update a Sequence Bot's details
+- [Delete](https://developer.acquire.io/rest-apis/chatbot/sequence-bot/delete.md): Delete a sequence
+- [Bulk Action](https://developer.acquire.io/rest-apis/chatbot/sequence-bot/bulk-action-on-bots.md): Perform bulk actions on bots
+- [Copy Existing Sequence](https://developer.acquire.io/rest-apis/chatbot/sequence-bot/copy-existing-sequence.md): Copy an existing sequence
+- [Branch](https://developer.acquire.io/rest-apis/chatbot/sequence-bot/branch.md): A branch is a single node of a Sequence bot.
+- [Get Single Branch](https://developer.acquire.io/rest-apis/chatbot/sequence-bot/branch/get-single-branch.md): Retrieve the details of a branch sequence.
+- [Add](https://developer.acquire.io/rest-apis/chatbot/sequence-bot/branch/add.md): Add a new Sequence branch
+- [Update](https://developer.acquire.io/rest-apis/chatbot/sequence-bot/branch/update.md): Update a sequence branch.
+- [Delete](https://developer.acquire.io/rest-apis/chatbot/sequence-bot/branch/delete.md): Delete sequence branch
+- [Set as Parent Branch](https://developer.acquire.io/rest-apis/chatbot/sequence-bot/branch/set-as-separate-branch.md): Set the parent branch
+- [Bot resources](https://developer.acquire.io/rest-apis/chatbot/bot-resources.md)
+- [Webhooks in chatbot](https://developer.acquire.io/rest-apis/chatbot/webhooks-in-chatbot.md)
+- [Analytics](https://developer.acquire.io/rest-apis/analytics.md): View data for the various metrics tracked in Acquire.
+- [Custom Reporting](https://developer.acquire.io/rest-apis/analytics/custom-reporting.md): Custom report endpoints.
+- [General Analytics](https://developer.acquire.io/rest-apis/analytics/general-analytics.md): General analytics endpoints.
+- [Chat](https://developer.acquire.io/rest-apis/analytics/chat.md): Retrieve data for chats.
+- [Overview](https://developer.acquire.io/rest-apis/analytics/chat/overview.md): Retrieve general chat data.
+- [Tags](https://developer.acquire.io/rest-apis/analytics/chat/tags.md): View your team’s tagging frequency and your most popular tags.
+- [Visitor Information](https://developer.acquire.io/rest-apis/analytics/chat/visitor-demographics.md): Retrieve information about your visitors such as technology used and location.
+- [Visitor Analytics](https://developer.acquire.io/rest-apis/analytics/chat/visitor-demographics/visitor-analytics.md): View visitor activity and location information.
+- [Visitor Source Overview](https://developer.acquire.io/rest-apis/analytics/chat/visitor-demographics/visitor-source-overview.md): Retrieve information about the technology that visitors use.
+- [Video Analytics](https://developer.acquire.io/rest-apis/analytics/chat/video-analytics.md): View your team’s video usage across conversations.
+- [Cobrowse](https://developer.acquire.io/rest-apis/analytics/cobrowse.md): Retrieve data for your cobrowse sessions.
+- [Chatbot](https://developer.acquire.io/rest-apis/analytics/chatbot.md): View analytics for Sequence and Conversational Bots.
+- [Sequence Bot](https://developer.acquire.io/rest-apis/analytics/chatbot/sequence-bot.md): Track Sequence Bot conversions and conversations.
+- [Conversational Bot](https://developer.acquire.io/rest-apis/analytics/chatbot/conversational-bot.md): Track Conversational Bot engagement and effectiveness.
+- [Knowledge Base](https://developer.acquire.io/rest-apis/analytics/knowledge-base.md): View article visits, reader satisfaction, and popular categories.
+- [Email](https://developer.acquire.io/rest-apis/analytics/email.md): Track email metrics including response times and reader activity.
+- [VoIP - Call SMS](https://developer.acquire.io/rest-apis/analytics/voip-call-sms.md): See an overview of all call and SMS interactions.
+- [Agent Performance](https://developer.acquire.io/rest-apis/analytics/agent-performance.md): See how your agents are doing including their average response time and rating.
+- [\[Under Construction\] Custom Cards](https://developer.acquire.io/rest-apis/cards.md): Custom cards can be defined as a custom element. We offer tons of system cards along with custom Acquire UI.
+- [Timeline-cards](https://developer.acquire.io/rest-apis/cards/interaction-cards-middle.md): Timeline cards appear in the middle of the agent panel.
+- [Create Interaction Card](https://developer.acquire.io/rest-apis/cards/interaction-cards-middle/create-interaction-card.md): Create an Interaction Custom Card.
+- [Update Interaction Card](https://developer.acquire.io/rest-apis/cards/interaction-cards-middle/update-interaction-card.md): Update an interaction card.
+- [List all Cards](https://developer.acquire.io/rest-apis/cards/interaction-cards-middle/retrieve-cards.md): Retrieve a list of all custom cards.
+- [Retrieve a card](https://developer.acquire.io/rest-apis/cards/interaction-cards-middle/retrieve-a-card.md): Retrieve a single card.
+- [Delete card](https://developer.acquire.io/rest-apis/cards/interaction-cards-middle/delete-card.md): Delete a card.
+- [Exclusive cards](https://developer.acquire.io/rest-apis/cards/general-cards-right-side.md): Create exclusive Custom Cards to pull in information to a contact's profile.
+- [Create general card](https://developer.acquire.io/rest-apis/cards/general-cards-right-side/add-card.md): Create a general card.
+- [Create app card - from other system](https://developer.acquire.io/rest-apis/cards/general-cards-right-side/create-app-card-from-other-system.md): Create a UI component card.
+- [Delete card](https://developer.acquire.io/rest-apis/cards/general-cards-right-side/delete-card.md): Delete a custom card.
+- [Knowledge Base](https://developer.acquire.io/rest-apis/knowledgebase.md): Manipulate data for Knowledge Base groups, categories, and articles.
+- [Groups](https://developer.acquire.io/rest-apis/knowledgebase/groups.md): Knowledge base groups were in place to make the articles get grouped together. With help of groups similar topic related articles can be grouped together and placed as one.
+- [Add](https://developer.acquire.io/rest-apis/knowledgebase/groups/add.md): This endpoint allows you to add a new article group in the Knowledge Base.
+- [Update](https://developer.acquire.io/rest-apis/knowledgebase/groups/update.md): Update details for a group in the Knowledge base.
+- [Get](https://developer.acquire.io/rest-apis/knowledgebase/groups/get.md): Retrieve details for all Knowledge Bases.
+- [Get Single](https://developer.acquire.io/rest-apis/knowledgebase/groups/get-single.md): Retrieve details for a single Knowledge Base.
+- [Delete](https://developer.acquire.io/rest-apis/knowledgebase/groups/delete.md): Delete a Knowledge Base.
+- [Articles](https://developer.acquire.io/rest-apis/knowledgebase/articles.md): Articles are pages in a Knowledge Base.
+- [Add Article](https://developer.acquire.io/rest-apis/knowledgebase/articles/add.md): Add a new article to a Knowledge Base
+- [Update Article](https://developer.acquire.io/rest-apis/knowledgebase/articles/update.md): This endpoint allows you to update the details of an existing article in the knowledge base.
+- [Delete Article](https://developer.acquire.io/rest-apis/knowledgebase/articles/delete.md): Delete an article.
+- [Get Articles](https://developer.acquire.io/rest-apis/knowledgebase/articles/get.md): This endpoint allows you to get all the existing articles in Knowledge Base.
+- [Get Single Article](https://developer.acquire.io/rest-apis/knowledgebase/articles/get-single-article.md): Retrieve a single article by the article ID
+- [Category](https://developer.acquire.io/rest-apis/knowledgebase/category.md)
+- [Add Category](https://developer.acquire.io/rest-apis/knowledgebase/category/add-category.md): Add a new category in the Knowledge Base.
+- [Update Category](https://developer.acquire.io/rest-apis/knowledgebase/category/update-category.md): This endpoint allows you to update the details of existing category in the knowledge base.
+- [Delete Category](https://developer.acquire.io/rest-apis/knowledgebase/category/delete-category.md): This endpoint allows you to delete a category from the knowledge base
+- [Get Category](https://developer.acquire.io/rest-apis/knowledgebase/category/get-category.md): Retrieve all the available categories in the Knowledge Base.
+- [Settings](https://developer.acquire.io/rest-apis/settings.md): Make changes to account information.
+- [Account Settings](https://developer.acquire.io/rest-apis/settings/account-settings.md): Manage your account settings.
+- [Users](https://developer.acquire.io/rest-apis/settings/account-settings/account-user-agent.md): Retrieve and manipulate details for users (also known as agents).
+- [List](https://developer.acquire.io/rest-apis/settings/account-settings/account-user-agent/list.md): List all available users
+- [Get Single](https://developer.acquire.io/rest-apis/settings/account-settings/account-user-agent/get-single.md): Retrieve information for a single user
+- [Add](https://developer.acquire.io/rest-apis/settings/account-settings/account-user-agent/add.md): Add a new user
+- [Update](https://developer.acquire.io/rest-apis/settings/account-settings/account-user-agent/update.md): Update a user
+- [Delete](https://developer.acquire.io/rest-apis/settings/account-settings/account-user-agent/delete.md): Delete a user
+- [Roles](https://developer.acquire.io/rest-apis/settings/account-settings/account-roles.md): Retrieve and manipulate information related to the roles of the account and add or delete a role from an account.
+- [List](https://developer.acquire.io/rest-apis/settings/account-settings/account-roles/list.md): List all account roles
+- [Get Single Role](https://developer.acquire.io/rest-apis/settings/account-settings/account-roles/get-single-role.md): Retrieve a single role
+- [Add](https://developer.acquire.io/rest-apis/settings/account-settings/account-roles/add.md): Add a new role
+- [Update](https://developer.acquire.io/rest-apis/settings/account-settings/account-roles/update.md): Update a role
+- [Delete](https://developer.acquire.io/rest-apis/settings/account-settings/account-roles/delete.md): Delete the role
+- [Departments](https://developer.acquire.io/rest-apis/settings/account-settings/account-department.md): Retrieve and manipulate information for departments.
+- [List](https://developer.acquire.io/rest-apis/settings/account-settings/account-department/list.md): List the available departments
+- [Get](https://developer.acquire.io/rest-apis/settings/account-settings/account-department/get.md): Retrieve a single department
+- [Add](https://developer.acquire.io/rest-apis/settings/account-settings/account-department/add-1.md): Add a new department
+- [Update](https://developer.acquire.io/rest-apis/settings/account-settings/account-department/update.md): Update a department.
+- [Delete](https://developer.acquire.io/rest-apis/settings/account-settings/account-department/delete.md): Delete a department.
+- [Custom Attributes](https://developer.acquire.io/rest-apis/settings/account-settings/custom-attributes.md): Fields for collecting and mapping data such as name and email in Acquire. Can be synced from other systems.
+- [List of custom attributes](https://developer.acquire.io/rest-apis/settings/account-settings/custom-attributes/list-of-custom-attributes.md): Retrieve all the custom attributes available
+- [Get a custom Attribute](https://developer.acquire.io/rest-apis/settings/account-settings/custom-attributes/get-a-custom-attribute.md): Retrieve a single custom attributeGe
+- [Add a custom attribute](https://developer.acquire.io/rest-apis/settings/account-settings/custom-attributes/add-a-custom-attribute.md): Add a new custom attribute.
+- [Update a custom attribute](https://developer.acquire.io/rest-apis/settings/account-settings/custom-attributes/update-a-custom-attribute.md): Update a custom attribute
+- [Delete a custom attribute](https://developer.acquire.io/rest-apis/settings/account-settings/custom-attributes/delete-a-custom-attribute.md): Delete a custom attribute.
+- [Conversation Settings](https://developer.acquire.io/rest-apis/settings/conversation-settings.md): Manage your conversation settings.
+- [Shortcuts](https://developer.acquire.io/rest-apis/settings/conversation-settings/message-shortcuts.md): Shortcuts are predefined chat messages that can be used by agents during conversations.
+- [List Groups](https://developer.acquire.io/rest-apis/settings/conversation-settings/message-shortcuts/list-groups.md): API to list all the different shortcut groups available.
+- [Get](https://developer.acquire.io/rest-apis/settings/conversation-settings/message-shortcuts/get.md): Retrieve all the shortcuts available
+- [Add](https://developer.acquire.io/rest-apis/settings/conversation-settings/message-shortcuts/add.md): Add a new message shortcut.
+- [Update](https://developer.acquire.io/rest-apis/settings/conversation-settings/message-shortcuts/update.md): Update a specific message shortcut.
+- [Delete](https://developer.acquire.io/rest-apis/settings/conversation-settings/message-shortcuts/delete.md): Delete a shortcut
+- [Tags](https://developer.acquire.io/rest-apis/settings/conversation-settings/tags.md): Tags are used to label conversations. Agents may attach tags to cases and conversations.
+- [List All Tags](https://developer.acquire.io/rest-apis/settings/conversation-settings/tags/list-all-tags.md): List all tags
+- [Get Single Tag](https://developer.acquire.io/rest-apis/settings/conversation-settings/tags/get-single-tag.md): Retrieve a single tag.
+- [Add New Tag](https://developer.acquire.io/rest-apis/settings/conversation-settings/tags/add-new-tag.md): Add a tag
+- [Update Tag](https://developer.acquire.io/rest-apis/settings/conversation-settings/tags/update-tag.md): Update details for a tag
+- [Delete Tag](https://developer.acquire.io/rest-apis/settings/conversation-settings/tags/delete-tag.md): Delete a specific tag
+- [Feedback](https://developer.acquire.io/rest-apis/settings/conversation-settings/feedback.md): Feedback or rating functionality allows organizations to capture feedback from customers about their experience with an agent.
+- [List of all feedback](https://developer.acquire.io/rest-apis/settings/conversation-settings/feedback/list-of-all-feedbacks.md): Retrieve all feedback questions
+- [Get single feedback](https://developer.acquire.io/rest-apis/settings/conversation-settings/feedback/get-single-feedback.md): Retrieve a single feedback question
+- [Add feedback](https://developer.acquire.io/rest-apis/settings/conversation-settings/feedback/add-feedback.md): Add a feedback question
+- [Update Feedback](https://developer.acquire.io/rest-apis/settings/conversation-settings/feedback/update-feedback.md): Update a feedback question.
+- [Delete feedback](https://developer.acquire.io/rest-apis/settings/conversation-settings/feedback/delete-feedback.md): Delete a feedback question.
+- [Security](https://developer.acquire.io/rest-apis/settings/security.md): Manage security settings.
+- [Block Visitor](https://developer.acquire.io/rest-apis/settings/security/security-block-visitor.md): Block Visitor contains a particular contact gets blocked until a certain period of time or for some reason.
+- [List](https://developer.acquire.io/rest-apis/settings/security/security-block-visitor/list.md): List all blocked visitors
+- [Get](https://developer.acquire.io/rest-apis/settings/security/security-block-visitor/get.md): Retrieve information about a blocked visitor
+- [Add](https://developer.acquire.io/rest-apis/settings/security/security-block-visitor/add.md): Block a contact from the contact list and widget
+- [Delete](https://developer.acquire.io/rest-apis/settings/security/security-block-visitor/delete.md): Unblock a visitor
+- [Audit Logs](https://developer.acquire.io/rest-apis/settings/security/security-audit-logs.md): Retrieve audit and user logs.
+- [Audit Log](https://developer.acquire.io/rest-apis/settings/security/security-audit-logs/audit-log.md): Retrieve a log of user activities
+- [Audit Log Users](https://developer.acquire.io/rest-apis/settings/security/security-audit-logs/untitled.md): Retrieve a log user activities
+
+## 1.0.0
+
+- [Acquire Developers Hub](https://developer.acquire.io/master/master.md)
+- [Acquire Build Requirement](https://developer.acquire.io/master/acquire/acquire-build-requirement.md)
+- [Requirement For Acquire](https://developer.acquire.io/master/acquire/acquire-build-requirement/requirement-for-acquire.md)
+- [Acquire Speedtest](https://developer.acquire.io/master/acquire/acquire-build-requirement/acquire-speedtest.md): Acquire Speed Tester in you can check your internet speed, IP address, Location, Time zone, Browser version, OS, and Port Connectivity Details.
+- [JS Live Chat API](https://developer.acquire.io/master/js-api/js-live-chat-api.md)
+- [Description](https://developer.acquire.io/master/js-api/js-live-chat-api/description.md)
+- [Installation](https://developer.acquire.io/master/js-api/js-live-chat-api/installation.md)
+- [Visitor](https://developer.acquire.io/master/js-api/js-live-chat-api/visitor.md)
+- [Thread](https://developer.acquire.io/master/js-api/js-live-chat-api/thread.md)
+- [Conversation](https://developer.acquire.io/master/js-api/js-live-chat-api/conversation.md)
+- [User Verification](https://developer.acquire.io/master/js-api/js-live-chat-api/user-verification.md)
+- [Quick Link Support](https://developer.acquire.io/master/js-api/quick-link-support.md)
+- [One Click Button](https://developer.acquire.io/master/js-api/quick-link-support/one-click-button.md)
+- [Social Media Share](https://developer.acquire.io/master/js-api/quick-link-support/social-media-share.md)
+- [Backend JS SDK](https://developer.acquire.io/master/js-api/backend-js-sdk.md)
+- [Setup Backend JS SDK](https://developer.acquire.io/master/js-api/backend-js-sdk/setup-backend-js-sdk.md)
+- [Demo Backend SDK](https://developer.acquire.io/master/js-api/backend-js-sdk/demo-backend-sdk.md)
+- [Advanced](https://developer.acquire.io/master/js-api/advanced.md)
+- [Widget UI](https://developer.acquire.io/master/js-api/advanced/widget-ui.md)
+- [Reference](https://developer.acquire.io/master/js-api/advanced/reference.md)
+- [Acquire Co Browse](https://developer.acquire.io/master/co-browse-apis/acquire-co-browse.md)
+- [Co Browse API](https://developer.acquire.io/master/co-browse-apis/acquire-co-browse/api.md)
+- [WebRTC Related Events](https://developer.acquire.io/master/acquire-api-events/webrtc-related-events.md)
+- [SDK Setup Guide](https://developer.acquire.io/master/ios/sdk-setup-guide.md)
+- [Getting Started](https://developer.acquire.io/master/ios/sdk-setup-guide/getting-started.md)
+- [Integration Guide (Core)](https://developer.acquire.io/master/ios/sdk-setup-guide/integration-guide-core.md): learn how to add acquire core SDK with Cocoapods.
+- [Integration Guide (Lite)](https://developer.acquire.io/master/ios/sdk-setup-guide/integration-guide-lite.md): learn how to add acquire lite SDK with Cocoapods.
+- [Manual Setup iOS](https://developer.acquire.io/master/ios/sdk-setup-guide/manual-setup-ios.md): Setting up the SDK manually
+- [Acquire Account ID](https://developer.acquire.io/master/ios/sdk-setup-guide/acquire-account-id.md)
+- [SDK Configuration Example](https://developer.acquire.io/master/ios/sdk-configuration-example.md)
+- [iOS Cobrowse](https://developer.acquire.io/master/ios/ios-cobrowse-sdk.md): Learn how to use Cobrowse feature using our native SDK.
+- [Theme Setting](https://developer.acquire.io/master/ios/theme-setting.md)
+- [iOS Push Notifications](https://developer.acquire.io/master/ios/ios-push-notifications.md)
+- [Verify your users](https://developer.acquire.io/master/ios/verify-your-users.md)
+- [Getting Started](https://developer.acquire.io/master/android/getting-started.md)
+- [Integration Guide (Core)](https://developer.acquire.io/master/android/getting-started/integration-guide.md)
+- [Integration Guide (Lite)](https://developer.acquire.io/master/android/getting-started/integration-guide-lite.md)
+- [Start using Acquire](https://developer.acquire.io/master/android/getting-started/start-using-acquire.md)
+- [Acquire APIs](https://developer.acquire.io/master/android/acquire-apis.md)
+- [Acquire Delegates](https://developer.acquire.io/master/android/acquire-delegates.md)
+- [Custom UI/widget](https://developer.acquire.io/master/android/custom-ui-widget.md)
+- [Cross Platform Integrations](https://developer.acquire.io/master/android/cross-platform-integrations.md)
+- [Webhooks Basic](https://developer.acquire.io/master/webhook-api/webhooks-basic.md)
+- [Introduction](https://developer.acquire.io/master/webhook-api/webhooks-basic/introduction.md)
+- [Webhook Integrate Steps](https://developer.acquire.io/master/webhook-api/webhooks-basic/webhook-integrate-steps.md)
+- [Webhook Format](https://developer.acquire.io/master/webhook-api/webhooks-basic/webhook-format.md)
+- [Webhook Events](https://developer.acquire.io/master/webhook-api/webhook-events.md)
+- [On Chat Start](https://developer.acquire.io/master/webhook-api/webhook-events/on-chat-start.md)
+- [On Chat Accept](https://developer.acquire.io/master/webhook-api/webhook-events/on-chat-accept.md)
+- [On Chat Message](https://developer.acquire.io/master/webhook-api/webhook-events/on-chat-message.md)
+- [On Chat Close](https://developer.acquire.io/master/webhook-api/webhook-events/on-chat-close.md)
+- [OAuth](https://developer.acquire.io/master/rest-apis/oauth.md)
+- [Authorization](https://developer.acquire.io/master/rest-apis/oauth/authorization.md)
+- [Tracklog](https://developer.acquire.io/master/rest-apis/oauth/tracklog.md)
+- [Profiles API](https://developer.acquire.io/master/rest-apis/profiles-api.md)
+- [Profile List](https://developer.acquire.io/master/rest-apis/profiles-api/user.md)
+- [Thread](https://developer.acquire.io/master/rest-apis/profiles-api/thread.md)
+- [Feedback](https://developer.acquire.io/master/rest-apis/profiles-api/feedback.md)
+- [Profile Details](https://developer.acquire.io/master/rest-apis/profiles-api/profile-details.md)
+- [Message](https://developer.acquire.io/master/rest-apis/profiles-api/message.md)
+- [Tags](https://developer.acquire.io/master/rest-apis/profiles-api/tags.md)
+- [Profile Agents](https://developer.acquire.io/master/rest-apis/profiles-api/profile-agents.md)
+- [Campaigns](https://developer.acquire.io/master/rest-apis/profiles-api/campaigns.md)
+- [Profile Add Update](https://developer.acquire.io/master/rest-apis/profiles-api/profile-add-update.md)
+- [Profile Delete](https://developer.acquire.io/master/rest-apis/profiles-api/profile-delete.md)
+- [Profile Visit History](https://developer.acquire.io/master/rest-apis/profiles-api/profile-visit-history.md)
+- [Sender Emails](https://developer.acquire.io/master/rest-apis/profiles-api/sender-emails.md)
+- [Chat](https://developer.acquire.io/master/rest-apis/chat.md)
+- [Chat Notes](https://developer.acquire.io/master/rest-apis/chat/chat-notes.md)
+- [Analytics](https://developer.acquire.io/master/rest-apis/analytics.md)
+- [Chat Statistics](https://developer.acquire.io/master/rest-apis/analytics/chat-statistics.md)
+- [Team Analytics](https://developer.acquire.io/master/rest-apis/analytics/team-analytics.md)
+- [Conversion Rate](https://developer.acquire.io/master/rest-apis/analytics/conversion-rate.md)
+- [Chat Tag](https://developer.acquire.io/master/rest-apis/analytics/chat-tag.md)
+- [Co browsing](https://developer.acquire.io/master/rest-apis/analytics/co-browsing.md)
+- [Agent](https://developer.acquire.io/master/rest-apis/agent.md)
+- [Agents List](https://developer.acquire.io/master/rest-apis/agent/agents-list.md)
+- [Agent add](https://developer.acquire.io/master/rest-apis/agent/agent-add.md)
+- [Edit / Get-agent](https://developer.acquire.io/master/rest-apis/agent/edit-get-agent.md)
+- [Update](https://developer.acquire.io/master/rest-apis/agent/update.md)
+- [Trigger](https://developer.acquire.io/master/rest-apis/trigger.md)
+- [Triggers List](https://developer.acquire.io/master/rest-apis/trigger/triggers-list.md)
+- [Triggers Detail](https://developer.acquire.io/master/rest-apis/trigger/triggers-detail.md)
+- [Operating Hours](https://developer.acquire.io/master/rest-apis/operating-hours.md)
+- [Save Operating Hours](https://developer.acquire.io/master/rest-apis/operating-hours/save-operating-hours.md)
+- [Get Operating Hours](https://developer.acquire.io/master/rest-apis/operating-hours/get-operating-hours.md)
+- [Cobrowse](https://developer.acquire.io/master/rest-apis/cobrwose-endpoints.md): Access your cobrowse analytics.
+- [Chat Bot](https://developer.acquire.io/master/chatbot-api/chat-bot.md)
+- [Integrate Your Chatbot](https://developer.acquire.io/master/chatbot-api/chat-bot/integrate-your-chatbot.md)
+- [Dialog Flow V1 Chat-Bot](https://developer.acquire.io/master/chatbot-api/chat-bot/dialog-flow-chat-bot.md)
+- [Dialog Flow V2 Chat-Bot](https://developer.acquire.io/master/chatbot-api/chat-bot/dialog-flow-v2-chat-bot.md)
+- [Dialog Flow Fulfillment & Custom Response](https://developer.acquire.io/master/chatbot-api/chat-bot/dialog-flow-fulfillment.md)
+- [IBM Watson Integration](https://developer.acquire.io/master/chatbot-api/chat-bot/ibm-watson-bot.md)
+- [Amazon Lex Bot](https://developer.acquire.io/master/chatbot-api/chat-bot/amazon-lex-bot.md)
+- [Azure's QnA Maker](https://developer.acquire.io/master/chatbot-api/chat-bot/azure-qna-maker.md)
+- [Webhook Calling & User Verification](https://developer.acquire.io/master/chatbot-api/chat-bot/webhook-calling-and-user-verification.md)
+- [Webhook For Reset Password](https://developer.acquire.io/master/chatbot-api/chat-bot/webhook-for-reset-password.md)
+- [Help Docs Setup](https://developer.acquire.io/master/knowledge-base-apis/help-docs-setup.md)
+- [Get FAQ Categories](https://developer.acquire.io/master/knowledge-base-apis/help-docs-setup/get-faq-categories.md)
+- [Get Setup Details](https://developer.acquire.io/master/knowledge-base-apis/help-docs-setup/get-setup-details.md)
+- [Get Side List](https://developer.acquire.io/master/knowledge-base-apis/help-docs-setup/get-side-list.md)
+- [Get Article](https://developer.acquire.io/master/knowledge-base-apis/help-docs-setup/get-article.md)
+- [Get Recent Article](https://developer.acquire.io/master/knowledge-base-apis/help-docs-setup/get-recent-article.md)
+- [Get Categorized Articles](https://developer.acquire.io/master/knowledge-base-apis/help-docs-setup/get-categorized-articles.md)
+- [Get Suggestion](https://developer.acquire.io/master/knowledge-base-apis/help-docs-setup/get-suggestion.md)
+- [API Error Handling](https://developer.acquire.io/master/errors/api-error-handling.md)
+- [HTTP Responses](https://developer.acquire.io/master/errors/api-error-handling/http-responses.md)

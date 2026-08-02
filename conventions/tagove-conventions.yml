@@ -1,0 +1,43 @@
+generated: '2026-07-21'
+method: searched
+source: https://developer.acquire.io/rest-apis/introduction/interrelated
+docs: https://developer.acquire.io/rest-apis/introduction
+provider_note: >-
+  Tagove now operates as Acquire.io; conventions below are captured from the
+  Acquire developer documentation.
+authentication:
+  style: bearer-api-key
+  header: Authorization
+  value: 'Bearer {API_KEY}'
+  transport: https-required
+  docs: https://developer.acquire.io/rest-apis/authorization
+http_methods:
+  GET: Read entity
+  POST: Create new entity
+  PUT: Modify existing entity
+  DELETE: Remove entity
+idempotency:
+  supported: false
+  note: No idempotency-key mechanism is documented.
+pagination:
+  documented: false
+  note: List endpoints exist (list contacts, cases, messages, companies, etc.) but a cross-cutting pagination contract is not published in the developer docs.
+rate_limiting:
+  enforced: false
+  statement: "There are no API consumption limits."
+  source: https://developer.acquire.io/rest-apis/introduction/interrelated
+error_envelope:
+  format: custom-json
+  transport: standard HTTP status codes (2xx success, 4xx client, 5xx server)
+  typed_error_codes: true
+  see: errors/tagove-error-codes.yml
+webhooks:
+  outbound: true
+  signature_header: x-acquire-signature
+  signature_algorithm: HMAC-SHA256
+  see: asyncapi/tagove-webhooks.yml
+versioning:
+  scheme: uri-path
+  current: v1
+  base_pattern: 'https://{account_id}.acquire.io/api/v1'
+  see: lifecycle/tagove-lifecycle.yml

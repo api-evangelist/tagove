@@ -1,0 +1,72 @@
+generated: '2026-07-21'
+method: searched
+source: https://developer.acquire.io/llms.txt
+note: >-
+  Tagove now operates as Acquire.io. Entity graph captured from the documented
+  REST object reference (no OpenAPI schema is published, so relationships are
+  read from the docs' object descriptions rather than $ref links).
+entities:
+- name: Case
+  aka: Conversation
+  description: A record of interaction with a contact; any interaction with a contact creates a case.
+  docs: https://developer.acquire.io/rest-apis/conversation
+- name: Message
+  description: A thread of messages between agents and contacts within a case.
+  docs: https://developer.acquire.io/rest-apis/conversation/conversation-or-cases/messages-1
+- name: Note
+  description: Text linked to case and contact objects.
+  docs: https://developer.acquire.io/rest-apis/conversation/conversation-or-notes
+- name: Contact
+  aka: Customer
+  description: Someone who has initiated a conversation through any channel; can belong to a company.
+  docs: https://developer.acquire.io/rest-apis/customer
+- name: Company
+  description: An organization a contact belongs to; groups contacts from the same organization.
+  docs: https://developer.acquire.io/rest-apis/company
+- name: Agent
+  aka: User
+  description: An account user who handles conversations; grouped into departments and roles.
+  docs: https://developer.acquire.io/rest-apis/settings/account-settings/account-user-agent
+- name: Department
+  description: A grouping of agents.
+- name: Chatbot
+  description: Conversational (AI QnA) or Sequential (branch) automation attached to conversations.
+  docs: https://developer.acquire.io/rest-apis/chatbot
+- name: Tag
+  description: Labels attached to cases and conversations.
+- name: KnowledgeBaseArticle
+  description: Article within a knowledge base group/category.
+  docs: https://developer.acquire.io/rest-apis/knowledgebase
+relationships:
+- from: Case
+  type: has_many
+  to: Message
+  via: case
+- from: Case
+  type: belongs_to
+  to: Contact
+  via: contact
+- from: Case
+  type: has_many
+  to: Agent
+  via: agents
+- from: Note
+  type: belongs_to
+  to: Case
+  via: case
+- from: Note
+  type: belongs_to
+  to: Contact
+  via: contact
+- from: Contact
+  type: belongs_to
+  to: Company
+  via: company
+- from: Agent
+  type: belongs_to
+  to: Department
+  via: department
+- from: Case
+  type: has_many
+  to: Tag
+  via: tags

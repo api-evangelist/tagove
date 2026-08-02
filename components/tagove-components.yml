@@ -1,0 +1,29 @@
+generated: '2026-07-21'
+method: searched
+source: https://developer.acquire.io/llms.txt
+note: >-
+  Tagove now operates as Acquire.io. Embeddable, client-side surfaces documented
+  in the Acquire developer docs. Distinct from the server-side SDKs in packages/.
+families:
+- family: Live Chat Widget
+  description: >-
+    Embeddable JavaScript live-chat widget with customizable appearance,
+    greeting, launcher, conversation UI; exposes methods (widget visibility,
+    window state, set/get customer info) and events/callbacks (reloadUI,
+    onChatMaximize/Minimize, onChatInitiated, onChatClosed, onAgentAssign,
+    onAgentStateChange).
+  loader: https://s.acquire.io/bare-widget.js
+  docs: https://developer.acquire.io/widget/overview
+- family: JS Live Chat API
+  description: Programmatic control of the widget — visitor, thread, conversation, and user-verification objects.
+  docs: https://developer.acquire.io/master/js-api/js-live-chat-api
+- family: Co-Browse
+  description: Real-time co-browsing surface with a Co-Browse API and WebRTC-related events; startable via the backend SDK (startCoBrowse).
+  docs: https://developer.acquire.io/master/co-browse-apis/acquire-co-browse
+- family: Backend Console (embedded iframe)
+  description: Backend JS SDK that embeds the Acquire agent dashboard (visitor list, live stats, chats) as a managed iframe inside a host page.
+  loader: https://s.acquire.io/bare-backend.js
+  docs: https://developer.acquire.io/master/js-api/backend-js-sdk/setup-backend-js-sdk
+- family: Custom Cards
+  description: Custom UI element cards rendered inside the agent panel (timeline/interaction cards) and on the contact profile (general/exclusive cards).
+  docs: https://developer.acquire.io/rest-apis/cards

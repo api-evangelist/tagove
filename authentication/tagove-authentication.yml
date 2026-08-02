@@ -1,0 +1,41 @@
+generated: '2026-07-21'
+method: searched
+source: https://developer.acquire.io/rest-apis/authorization
+docs: https://developer.acquire.io/rest-apis/authorization
+note: >-
+  Tagove now operates as Acquire.io (acquire.io); this profile documents the
+  Acquire developer platform that succeeded Tagove. No machine-readable OpenAPI
+  is published, so this profile is captured from the developer documentation.
+summary:
+  types:
+  - apiKey
+  - oauth2
+  api_key_in:
+  - header
+  oauth2_flows:
+  - authorizationCode
+schemes:
+- name: ApiKeyBearer
+  type: apiKey
+  in: header
+  parameter: Authorization
+  format: 'Bearer {API_KEY}'
+  description: >-
+    All REST requests require an API_KEY passed as an HTTP Bearer token in the
+    Authorization header (`Authorization: Bearer {API_KEY}`). Keys are created
+    and revoked under Settings > For Developers > API Key with per-token
+    permissions; keys are shown once and cannot be re-displayed. All requests
+    must be over HTTPS.
+  sources:
+  - https://developer.acquire.io/rest-apis/authorization
+- name: OAuth2
+  type: oauth2
+  description: >-
+    OAuth is required for publicly-available apps that access other Acquire
+    accounts' data on behalf of users. First-party scripts that access an
+    account's own data use an Access Token instead. Asking users for their
+    Access Token in place of OAuth is against the Acquire terms of service.
+  flows:
+  - flow: authorizationCode
+  sources:
+  - https://developer.acquire.io/master/rest-apis/oauth/authorization

@@ -1,0 +1,40 @@
+generated: '2026-07-21'
+method: searched
+source: https://developer.acquire.io/rest-apis/introduction/interrelated
+docs: https://developer.acquire.io/master/errors/api-error-handling
+format: custom-json
+envelope: JSON body with an error message; typed error string plus standard HTTP status code.
+status_codes:
+- status: 200
+  meaning: Successful request.
+- status: 400
+  meaning: Bad Request — returns JSON with the error message.
+- status: 401
+  meaning: Unauthorized — could not authenticate the request.
+- status: 403
+  meaning: Forbidden — invalid request.
+- status: 404
+  meaning: Not Found — no such object.
+- status: 500
+  meaning: Internal Server Error — something went wrong.
+- status: 503
+  meaning: Service Unavailable — service is down for maintenance.
+error_types:
+- code: ERROR_INVALID_INPUT
+  status: 400
+  meaning: Invalid request.
+- code: ERROR_RECORD_NOT_FOUND
+  status: 400
+  meaning: No credentials in the request body.
+- code: ERROR_DUPLICATE_RECORD_FOUND
+  status: 400
+  meaning: Record already exists.
+- code: ERROR_UNAUTHORIZED
+  status: 401
+  meaning: Missing, incorrect, or invalid API Key.
+- code: ERROR_UNAUTHORIZED_ACCESS
+  status: 403
+  meaning: Invalid request / insufficient access.
+- code: ERROR_SERVER_ERROR
+  status: 500
+  meaning: Internal server error.

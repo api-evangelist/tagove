@@ -1,0 +1,39 @@
+generated: '2026-07-21'
+method: searched
+source: https://developer.acquire.io/webhook-api/introduction
+spec_type: Webhooks
+docs: https://developer.acquire.io/webhook-api/introduction
+description: >-
+  Acquire (formerly Tagove) sends outbound webhooks to a configured endpoint
+  instead of requiring polling. Webhooks are managed under Settings > For
+  Developers > Webhooks.
+security:
+  signature_header: x-acquire-signature
+  algorithm: HMAC-SHA256
+  verification: >-
+    Each webhook is created with an allocated HMAC/secret key. Outbound requests
+    carry an HMAC-SHA256 hash of the payload body in the x-acquire-signature
+    header; the receiver recomputes the hash with the shared secret and compares.
+  docs: https://developer.acquire.io/webhook-api/securing-webhook
+events:
+- name: chat.pending
+  trigger: Chat status is set to Pending
+  status: coming-soon
+- name: chat.active
+  trigger: Chat status is set to Active
+  status: available
+- name: chat.queue
+  trigger: Chat status is set to Queue
+  status: coming-soon
+- name: chat.closed
+  trigger: Chat status is set to Closed
+  status: available
+- name: agent.status_change
+  trigger: Agent status change (available/unavailable, chat/email/VOIP channel toggled)
+  status: coming-soon
+- name: case.new
+  trigger: A new case is added
+  status: available
+chatbot_webhooks:
+  note: Chatbots additionally support inbound webhook calls and user verification.
+  docs: https://developer.acquire.io/rest-apis/chatbot/webhooks-in-chatbot.md

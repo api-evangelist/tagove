@@ -1,0 +1,27 @@
+generated: '2026-07-21'
+method: searched
+source: https://developer.acquire.io/rest-apis/authorization
+note: >-
+  Tagove now operates as Acquire.io. Lifecycle captured from the Acquire
+  developer docs. The docs expose two documentation trains: the current
+  REST API set and a legacy 'master' (1.0.0) set.
+versioning:
+  scheme: uri-path
+  current: v1
+  base_pattern: 'https://{account_id}.acquire.io/api/v1'
+  docs: https://developer.acquire.io/rest-apis/introduction
+  doc_versions:
+  - '2.0.0'
+  - '1.0.0'
+deprecation:
+  policy_url: null
+  sunset_header: false
+  note: No formal deprecation/sunset policy or RFC 8594 header support is documented.
+sla:
+  url: null
+  uptime_target: null
+status_page: null
+status_page_probe:
+  url: https://status.acquire.io
+  status: 404
+deprecated_operations: []

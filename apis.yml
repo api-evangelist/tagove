@@ -1,7 +1,28 @@
 aid: tagove
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tagove.png
 name: Tagove
-description: Tagove is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Tagove was a live chat, video chat, and co-browsing customer support platform
+  (a 500 Global portfolio company) that now operates as Acquire.io. Acquire is
+  an omnichannel customer support and conversational engagement platform whose
+  developer platform (developer.acquire.io) exposes a REST API for
+  conversations/cases, messages, contacts, companies, chatbots, knowledge base,
+  analytics, and account settings, plus outbound HMAC-SHA256-signed webhooks,
+  iOS/Android/JS SDKs, and an embeddable live-chat and co-browse widget. This
+  profile was enriched from the Acquire developer documentation; no
+  machine-readable OpenAPI is published.
 url: https://raw.githubusercontent.com/api-evangelist/tagove/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +30,42 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-successor: acquire.io
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-apis: []
+- Customer Support
+- Live Chat
+- Conversational
+- Co-browsing
+- Chatbots
+- Webhooks
+- Customer Communication
+- Help Desk
+apis:
+- aid: tagove-acquire-support-api
+  name: Acquire Support & Conversations API
+  description: >-
+    REST API for the Acquire (formerly Tagove) customer support platform:
+    conversations/cases, messages, notes, contacts, companies, phone,
+    chatbots, cards, analytics, knowledge base, and account settings, with
+    outbound HMAC-signed webhooks. API-key Bearer auth (OAuth for third-party
+    apps). No published OpenAPI; documented at developer.acquire.io.
+  humanURL: https://developer.acquire.io
+  baseURL: https://app.acquire.io
+  tags:
+  - Customer Support
+  - Live Chat
+  - Conversational
+  properties:
+  - type: Documentation
+    url: https://developer.acquire.io
+  - type: APIReference
+    url: https://developer.acquire.io/rest-apis/introduction
+  - type: Authentication
+    url: authentication/tagove-authentication.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
@@ -23,3 +74,52 @@ maintainers:
 common:
 - type: Website
   url: https://acquire.io
+- type: DeveloperPortal
+  url: https://developer.acquire.io
+- type: Documentation
+  url: https://developer.acquire.io
+- type: APIReference
+  url: https://developer.acquire.io/rest-apis/introduction
+- type: GettingStarted
+  url: https://developer.acquire.io/master.md
+- type: Support
+  url: https://help.acquire.io
+- type: GitHubOrganization
+  url: https://github.com/acquireio
+- type: Pricing
+  url: https://acquire.io/pricing
+- type: SignUp
+  url: https://app.acquire.io
+- type: PrivacyPolicy
+  url: https://acquire.io/legal/privacy-policy
+- type: Blog
+  url: https://acquire.io/blog
+- type: LLMsTxt
+  url: llms/tagove-llms.txt
+- type: Authentication
+  url: authentication/tagove-authentication.yml
+- type: Conventions
+  url: conventions/tagove-conventions.yml
+- type: ErrorCatalog
+  url: errors/tagove-error-codes.yml
+- type: Webhooks
+  url: asyncapi/tagove-webhooks.yml
+- type: Packages
+  url: packages/tagove-packages.yml
+- type: SDKs
+  url: packages/tagove-packages.yml
+- type: Components
+  url: components/tagove-components.yml
+- type: Lifecycle
+  url: lifecycle/tagove-lifecycle.yml
+- type: Conformance
+  url: conformance/tagove-conformance.yml
+- type: DataModel
+  url: data-model/tagove-data-model.yml
+- type: DomainSecurity
+  url: security/tagove-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 12
+  pass: local-v1
