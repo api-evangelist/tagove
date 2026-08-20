@@ -36,6 +36,16 @@ created: '2026-07-17'
 modified: '2026-07-21'
 tags:
 - Company
+- Customer-Support
+- Live Chat
+- Conversational
+- Co-Browsing
+- Chatbots
+- Webhook
+- Customer Communication
+- Help Desk
+tags_raw:
+- Company
 - Customer Support
 - Live Chat
 - Conversational
@@ -56,6 +66,10 @@ apis:
   humanURL: https://developer.acquire.io
   baseURL: https://app.acquire.io
   tags:
+  - Customer-Support
+  - Live Chat
+  - Conversational
+  tags_raw:
   - Customer Support
   - Live Chat
   - Conversational
