@@ -24,16 +24,12 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tagove.png
 name: Tagove
-description: >-
-  Tagove was a live chat, video chat, and co-browsing customer support platform
-  (a 500 Global portfolio company) that now operates as Acquire.io. Acquire is
-  an omnichannel customer support and conversational engagement platform whose
-  developer platform (developer.acquire.io) exposes a REST API for
-  conversations/cases, messages, contacts, companies, chatbots, knowledge base,
-  analytics, and account settings, plus outbound HMAC-SHA256-signed webhooks,
-  iOS/Android/JS SDKs, and an embeddable live-chat and co-browse widget. This
-  profile was enriched from the Acquire developer documentation; no
-  machine-readable OpenAPI is published.
+description: Tagove was a live chat, video chat, and co-browsing customer support platform (a 500 Global
+  portfolio company) that now operates as Acquire.io. Acquire is an omnichannel customer support and conversational
+  engagement platform whose developer platform (developer.acquire.io) exposes a REST API for conversations/cases,
+  messages, contacts, companies, chatbots, knowledge base, analytics, and account settings, plus outbound
+  HMAC-SHA256-signed webhooks, iOS/Android/JS SDKs, and an embeddable live-chat and co-browse widget.
+  This profile was enriched from the Acquire developer documentation; no machine-readable OpenAPI is published.
 url: https://raw.githubusercontent.com/api-evangelist/tagove/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -66,14 +62,12 @@ tags_raw:
 - Customer Communication
 - Help Desk
 apis:
-- aid: tagove-acquire-support-api
+- aid: tagove:tagove-acquire-support-api
   name: Acquire Support & Conversations API
-  description: >-
-    REST API for the Acquire (formerly Tagove) customer support platform:
-    conversations/cases, messages, notes, contacts, companies, phone,
-    chatbots, cards, analytics, knowledge base, and account settings, with
-    outbound HMAC-signed webhooks. API-key Bearer auth (OAuth for third-party
-    apps). No published OpenAPI; documented at developer.acquire.io.
+  description: 'REST API for the Acquire (formerly Tagove) customer support platform: conversations/cases,
+    messages, notes, contacts, companies, phone, chatbots, cards, analytics, knowledge base, and account
+    settings, with outbound HMAC-signed webhooks. API-key Bearer auth (OAuth for third-party apps). No
+    published OpenAPI; documented at developer.acquire.io.'
   humanURL: https://developer.acquire.io
   baseURL: https://app.acquire.io
   tags:
