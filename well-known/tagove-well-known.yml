@@ -4,27 +4,19 @@ host: https://developer.acquire.io
 also_probed:
 - https://acquire.io
 - https://api.acquire.io
-documents:
-- path: /.well-known/security.txt
-  host: https://developer.acquire.io
-  status: 404
-- path: /.well-known/security.txt
-  host: https://acquire.io
-  status: 403
-- path: /.well-known/openid-configuration
-  host: https://api.acquire.io
-  status: 404
-- path: /openapi.json
-  host: https://developer.acquire.io
-  status: 404
-- path: /swagger.json
-  host: https://developer.acquire.io
-  status: 404
-- path: /llms.txt
-  host: https://developer.acquire.io
-  status: 200
-  file: ../llms/tagove-llms.txt
-note: >-
-  No /.well-known discovery documents were served. An llms.txt IS published at
-  developer.acquire.io/llms.txt (captured under llms/). No machine-readable
-  OpenAPI/Swagger is served at common paths.
+note: No /.well-known discovery documents were served. An llms.txt IS published at developer.acquire.io/llms.txt
+  (captured under llms/). No machine-readable OpenAPI/Swagger is served at common paths.
+hosts:
+- host: https://developer.acquire.io
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/security.txt
+    status: 403
+  - path: /.well-known/openid-configuration
+    status: 404
+x-shape-fix:
+  converted: '2026-08-20'
+  from: documents
+  note: Rewritten into hosts[] -> documents[], the only shape well_known_docs() in score.rb reads. A served
+    .well-known surface recorded in any other shape scores as absent.
