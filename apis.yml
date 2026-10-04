@@ -43,9 +43,9 @@ created: '2026-07-17'
 modified: '2026-07-21'
 tags:
 - Company
-- Customer-Support
+- Customer Support
 - Live Chat
-- Conversational
+- Conversational AI
 - Co-Browsing
 - Chatbots
 - Webhook
@@ -61,6 +61,7 @@ tags_raw:
 - Webhooks
 - Customer Communication
 - Help Desk
+- Customer-Support
 apis:
 - aid: tagove:tagove-acquire-support-api
   name: Acquire Support & Conversations API
@@ -71,13 +72,14 @@ apis:
   humanURL: https://developer.acquire.io
   baseURL: https://app.acquire.io
   tags:
-  - Customer-Support
+  - Customer Support
   - Live Chat
-  - Conversational
+  - Conversational AI
   tags_raw:
   - Customer Support
   - Live Chat
   - Conversational
+  - Customer-Support
   properties:
   - type: Documentation
     url: https://developer.acquire.io
