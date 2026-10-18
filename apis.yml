@@ -43,7 +43,7 @@ created: '2026-07-17'
 modified: '2026-07-21'
 tags:
 - Company
-- Customer Support
+- Customer Service
 - Live Chat
 - Conversational AI
 - Co-Browsing
@@ -72,7 +72,7 @@ apis:
   humanURL: https://developer.acquire.io
   baseURL: https://app.acquire.io
   tags:
-  - Customer Support
+  - Customer Service
   - Live Chat
   - Conversational AI
   tags_raw:
